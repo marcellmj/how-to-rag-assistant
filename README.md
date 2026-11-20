@@ -2,8 +2,13 @@
 
 A Gradio chat app that answers how-to questions in numbered steps. In full mode, it retrieves WikiHow articles to ground its answer and looks up a HowTo100M video segment for each step.
 
+<br>
+
 ![Example prompt](example_screenshot.png)
+
 Fig 1: Interface example after a prompt. Left: Interactive chat window where the user prompts the LLM. Middle: Articles and videos tab show retrieved data along with how well they match the query and allow for playback of individual videos clips. Right: System data like token budget, unique retrieved articles and videos, and retrieval settings + latency (not visible in this screenshot).
+
+<br>
 
 ![End-to-end system pipeline](pipeline.png)
 
